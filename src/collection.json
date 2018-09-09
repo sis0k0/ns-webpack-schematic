@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ns-webpack-schematic": {
+      "description": "A blank schematic.",
+      "factory": "./ns-webpack-schematic/index#nsWebpackSchematic",
+      "schema": "./ns-webpack-schematic/schema.json"
+    }
+  }
+}
