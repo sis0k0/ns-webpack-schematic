@@ -2,8 +2,8 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "ns-webpack-schematic": {
-      "description": "A blank schematic.",
-      "factory": "./ns-webpack-schematic/index#nsWebpackSchematic",
+      "description": "Adds nativescript-dev-webpack to the application.",
+      "factory": "./ns-webpack-schematic",
       "schema": "./ns-webpack-schematic/schema.json"
     }
   }
